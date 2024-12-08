@@ -19,7 +19,9 @@ This is a simple memory game built with HTML, CSS, and JavaScript. The game invo
 
 ## Usage
 
-1. Open `index.html` in your web browser to start the game.
+ Open `index.html` in your web browser to start the game.
+
+
 
 ## Game Rules
 
