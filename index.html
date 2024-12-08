@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+
+  <h1>Memory Game</h1>
+
+  <div class="user-input-container">
+      <input type="text" id="user-name-input" placeholder="Enter your name">
+      <button id="submit-name-button">Start Game</button>
+  </div>
+
+  <div class="info-container" style="display: none;">
+    <div class="user-name">User Name: <span id="user-name"></span></div>
+    <div class="level">Level: <span id="level">1</span></div>
+    <div class="tries">Wrong Tries: <span id="wrong-tries">0</span></div>
+    
+</div>
+
+  <div class="memory-game-blocks" style="display: none;">
+
+
+
+        <div class="game-block" data-obst="icon-1">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-1.png" alt="kirsche"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-1">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-1.png" alt="kirsche"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-2">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-2.png" alt="heidelbeere"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-2">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-2.png" alt="heidelbeere"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-3">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-3.png" alt="trauben"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-3">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-3.png" alt="trauben"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-4">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-4.png" alt="Himbeere"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-4">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-4.png" alt="Himbeere"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-5">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-5.png" alt="Erdbeere"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-5">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-5.png" alt="Erdbeere"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-6">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-6.png" alt="Birne"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-6">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-6.png" alt="Birne"></div>
+          </div>
+      
+          <div class="game-block" data-obst="icon-7">
+            <div class="face front"></div>
+            <div class="face back"><img src="./assets/icon-7.png" alt="Apfel"></div>
+          </div>
+
+
+    
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
