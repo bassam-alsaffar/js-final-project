@@ -12,7 +12,7 @@ This is a simple memory game built with HTML, CSS, and JavaScript. The game invo
 
 ## Installation
 
-1. Clone the repository:
+ Clone the repository:
     ```sh
     git clone https://github.com/bassam-alsaffar/js-final-project.git
     ```
